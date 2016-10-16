@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Test Case</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>*ngIf or *ngFor and [navPush]</h3>
+  <p>Have a look in the browser console, you'll find an "expression has changed" exception.</p>
+
+  <div *ngIf="enabled">
+    <a [navPush]="anotherPage">Hello =)</a>
+  </div>
+
+  <div *ngFor="let val of array">
+    <a [navPush]="anotherPage">{{ val }}</a>
+  </div>
+
+</ion-content>
