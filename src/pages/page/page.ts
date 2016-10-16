@@ -13,7 +13,7 @@ export class Page {
 
   ionViewDidEnter() {
       this.enabled = true;
-      this.array = ['Hey :)','Huhu \\o/', 'Hi ;)'];
+      this.array = ['Hey :)', 'Huhu \\o/', 'Hi ;)'];
   }
 
 }
